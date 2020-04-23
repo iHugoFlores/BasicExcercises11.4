@@ -13,6 +13,8 @@
 		CAF4E7642451070B0055A9C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAF4E7622451070B0055A9C0 /* Main.storyboard */; };
 		CAF4E766245107100055A9C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAF4E765245107100055A9C0 /* Assets.xcassets */; };
 		CAF4E769245107100055A9C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAF4E767245107100055A9C0 /* LaunchScreen.storyboard */; };
+		F03DA7EE2451F6C5007C47C1 /* Hold The Line.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F03DA7ED2451F6C5007C47C1 /* Hold The Line.mp3 */; };
+		F03DA7F02451FB36007C47C1 /* myVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F03DA7EF2451F8E1007C47C1 /* myVideo.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		CAF4E765245107100055A9C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CAF4E768245107100055A9C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CAF4E76A245107100055A9C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F03DA7ED2451F6C5007C47C1 /* Hold The Line.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Hold The Line.mp3"; sourceTree = "<group>"; };
+		F03DA7EF2451F8E1007C47C1 /* myVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = myVideo.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,10 +65,20 @@
 				CAF4E7602451070B0055A9C0 /* ViewController.swift */,
 				CAF4E7622451070B0055A9C0 /* Main.storyboard */,
 				CAF4E765245107100055A9C0 /* Assets.xcassets */,
+				F03DA7EC2451F6B8007C47C1 /* AV Assets */,
 				CAF4E767245107100055A9C0 /* LaunchScreen.storyboard */,
 				CAF4E76A245107100055A9C0 /* Info.plist */,
 			);
 			path = AVTest;
+			sourceTree = "<group>";
+		};
+		F03DA7EC2451F6B8007C47C1 /* AV Assets */ = {
+			isa = PBXGroup;
+			children = (
+				F03DA7EF2451F8E1007C47C1 /* myVideo.mp4 */,
+				F03DA7ED2451F6C5007C47C1 /* Hold The Line.mp3 */,
+			);
+			path = "AV Assets";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +139,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F03DA7F02451FB36007C47C1 /* myVideo.mp4 in Resources */,
 				CAF4E769245107100055A9C0 /* LaunchScreen.storyboard in Resources */,
 				CAF4E766245107100055A9C0 /* Assets.xcassets in Resources */,
 				CAF4E7642451070B0055A9C0 /* Main.storyboard in Resources */,
+				F03DA7EE2451F6C5007C47C1 /* Hold The Line.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

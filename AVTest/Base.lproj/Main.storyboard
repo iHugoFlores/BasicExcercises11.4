@@ -25,10 +25,16 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Xe-oA-JHC">
                                 <rect key="frame" x="150.5" y="341" width="113" height="30"/>
                                 <state key="normal" title="Play Local Video"/>
+                                <connections>
+                                    <action selector="playLocalVideo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GgC-mi-yZl"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iuB-7A-zNf">
                                 <rect key="frame" x="151" y="271" width="112" height="30"/>
                                 <state key="normal" title="Play Local Audio"/>
+                                <connections>
+                                    <action selector="playLocalAudio:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6vY-Tg-OkI"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
